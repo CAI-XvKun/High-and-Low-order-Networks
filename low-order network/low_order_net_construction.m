@@ -10,8 +10,8 @@ end
 %         P(j,:,i)=mci.data(:,j,i)';
 %     end
 % end
-mkdir('ÍøÂç½á¹û');
+mkdir('ä½é˜¶ç½‘ç»œç»“æœ');
 for lamda=0.3:0.01:0.3
     [net] = ultra_group_UOLS(P,0,lamda,0.001);
-    save(['ÍøÂç½á¹û\Net_order1_lamda_',num2str(lamda),'.mat'],'net');
+    save(['ä½é˜¶ç½‘ç»œç»“æœ\Net_order1_lamda_',num2str(lamda),'.mat'],'net');
 end
